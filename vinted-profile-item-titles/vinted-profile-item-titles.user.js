@@ -40,7 +40,8 @@ function addTitle(link) {
   const anchor =
     item.querySelector(
       `[data-testid="product-item-id-${id}--description--content"]`,
-    ) ?? item.querySelector(`[data-testid="product-item-id-${id}--description"]`);
+    ) ??
+    item.querySelector(`[data-testid="product-item-id-${id}--description"]`);
   if (!anchor || anchor.querySelector(`.${MARKER_CLASS}`)) return;
 
   const summary =
