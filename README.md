@@ -1,6 +1,10 @@
-# userscripts
+# Userscripts
 
 Misc userscripts.
+
+## Install
+
+Install from [Greasy Fork](https://greasyfork.org/en/users/1250549-anothergreasyforkuser), or directly by opening the raw `.user.js` file link with a userscript manager such as [Violentmonkey](https://violentmonkey.github.io/).
 
 ## Development
 
